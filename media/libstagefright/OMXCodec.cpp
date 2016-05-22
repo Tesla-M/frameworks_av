@@ -82,6 +82,10 @@
 #include <sec_format.h>
 #endif
 
+#ifdef USE_SAMSUNG_COLORFORMAT
+#include <sec_format.h>
+#endif
+
 namespace android {
 #ifdef USE_SAMSUNG_COLORFORMAT
 static const int OMX_SEC_COLOR_FormatNV12TPhysicalAddress = 0x7F000001;
